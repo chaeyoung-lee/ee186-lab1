@@ -7,8 +7,9 @@ This is the template for EE186 Lab1. Start by cloning this project.
 ```
 git clone --recurse-submodules https://github.com/chaeyoung-lee/ee186-lab1.git
 ```
+Make sure `libs/CMSIS_5` has been cloned. If not, you can directly download the folder from [this](https://github.com/ARM-software/CMSIS_5.git) official CMSIS5 repository.
 
-Now, let's set up the development environment.
+Let's set up the development environment.
 
 * Install the [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/gnu-rm)
 * (Windows) Install the make tool from [GNUWin32](https://gnuwin32.sourceforge.net/packages/make.htm)
