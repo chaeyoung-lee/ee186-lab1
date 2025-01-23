@@ -1,5 +1,5 @@
 TARGET = blink
-SRCS = blink.c
+SRCS = src/blink.c
 
 LINKER_SCRIPT = STM32F407VGTX_FLASH.ld
 
