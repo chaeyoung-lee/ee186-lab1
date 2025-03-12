@@ -2,6 +2,7 @@ CMSIS = libs/CMSIS
 
 SRCS += include/system_stm32l4xx.c
 SRCS += include/startup_stm32l4r5zitxp.s
+SRCS += include/syscalls.c
 
 OBJDIR = Debug
 
@@ -34,7 +35,7 @@ CFLAGS += -pedantic # strict ISO warnings
 CFLAGS += -Wmissing-include-dirs
 CFLAGS += -Wsign-compare
 CFLAGS += -Wcast-align
-CFLAGS += -Wconversion # neg int const implicitly converted to uint
+# CFLAGS += -Wconversion # neg int const implicitly converted to uint
 CFLAGS += -fsingle-precision-constant
 CFLAGS += -fomit-frame-pointer # do not use fp if not needed
 CFLAGS += -ffunction-sections -fdata-sections
