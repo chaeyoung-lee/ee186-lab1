@@ -7,7 +7,6 @@ This is the template for EE186 Lab1. Start by cloning this project.
 ```
 git clone --recurse-submodules https://github.com/chaeyoung-lee/ee186-lab1.git
 ```
-Make sure `libs/CMSIS_5` has been cloned. If not, you can directly download the folder from [this](https://github.com/ARM-software/CMSIS_5.git) official CMSIS5 repository.
 
 Let's set up the development environment.
 
@@ -28,9 +27,8 @@ If everything is set up correctly, you should see this message.
 ```
 Cleaning blink
 Building blink.c
--eabi/bin/ld: warning: Debug/blink.elf has a LOAD segment with RWX permissions
-   text	   data	    bss	    dec	    hex	filename
-    748	      8	   1568	   2324	    914	Debug/blink.elf
+   text    data     bss     dec     hex filename
+    724       0    3104    3828     ef4 Debug/blink.elf
 Successfully finished...
 ```
 
