@@ -1,12 +1,12 @@
 TARGET = blink
 SRCS = src/blink.c
 
-LINKER_SCRIPT = STM32F407VGTX_FLASH.ld
+LINKER_SCRIPT = STM32L4R5ZITXP_FLASH.ld STM32L4R5ZITXP_RAM.ld
 
 # Generate debug info
 DEBUG = 1
 
 # Choose processor
-CDEFS  = -DSTM32F411xE
+CDEFS  = -DSTM32L4R5xx
 
 include armf4.mk

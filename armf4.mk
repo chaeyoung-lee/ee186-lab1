@@ -1,7 +1,7 @@
-CMSIS = libs/CMSIS_5
+CMSIS = libs/CMSIS
 
-SRCS += include/system_stm32f4xx.c
-SRCS += include/startup_stm32f411xe.s
+SRCS += include/system_stm32l4xx.c
+SRCS += include/startup_stm32l4r5zitxp.s
 
 OBJDIR = Debug
 
@@ -12,7 +12,8 @@ vpath %.s $(sort $(dir $(SRCS)))
 
 INCLUDES += -I.
 INCLUDES += -I./include
-INCLUDES += -I$(CMSIS)/CMSIS/Core/Include
+INCLUDES += -I$(CMSIS)/Device/ST/STM32L4xx/Include
+INCLUDES += -I$(CMSIS)/Include
 
 CFLAGS += $(CDEFS)
 
