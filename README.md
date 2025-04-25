@@ -10,8 +10,8 @@ git clone --recurse-submodules https://github.com/chaeyoung-lee/ee186-lab1.git
 
 Let's set up the development environment.
 
-* Install the [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/gnu-rm)
-* (Windows) Install the make tool from [GNUWin32](https://gnuwin32.sourceforge.net/packages/make.htm)
+* Install the [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/gnu-rm) (follow instructions in `readme.txt` to add binary to PATH).
+* (Windows) Install the make tool from [GNUWin32](https://gnuwin32.sourceforge.net/packages/make.htm).
 
 ### Compile
 
