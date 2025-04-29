@@ -10,8 +10,11 @@ git clone --recurse-submodules https://github.com/chaeyoung-lee/ee186-lab1.git
 
 Let's set up the development environment.
 
-* Install the [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/gnu-rm) (add it to your system PATH).
+* Install the [GNU Arm Embedded Toolchain](https://developer.arm.com/downloads/-/gnu-rm).
 * (Windows) Install the make tool from [GNUWin32](https://gnuwin32.sourceforge.net/packages/make.htm).
+* Install the programmer / debugger. You can use either [stlink](https://github.com/stlink-org/stlink) or [OpenOCD](https://openocd.org/).
+
+To run the tools directly from the command line, you need to add the path of the installed binary to the system path.
 
 ### Compile
 
